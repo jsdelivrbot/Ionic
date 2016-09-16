@@ -9815,17 +9815,21 @@ a.button {
   -webkit-transition-duration: 0s;
   transition-duration: 0s; }
 
-.login {
-  margin-top: 250px; }
-  .login__button-login {
-    background: transparent;
-    text-transform: uppercase;
-    border-radius: 25px;
-    border: 1px solid black;
-    color: black;
-    margin-bottom: 20px !important; }
-  .login__pane {
-    padding: 0 20px; }
+.login__button-login {
+  background: transparent;
+  text-transform: uppercase;
+  border-radius: 25px;
+  border: 1px solid black;
+  color: black;
+  margin-bottom: 20px !important; }
+
+.login__pane {
+  padding: 10px 30px; }
+
+.login__input, .login__input[type="text"], .login__input[type="email"], .login__input[type="number"], .login__input[type="password"] {
+  font-size: 18px;
+  color: black;
+  text-align: center; }
 
 .text-or-login-with {
   text-transform: uppercase;
@@ -9836,6 +9840,7 @@ a.button {
 
 .icon {
   margin: 0px 10px;
+  margin-bottom: 30px;
   font-size: 30px;
   display: inline-block;
   border-radius: 50%;
@@ -9848,6 +9853,24 @@ a.button {
     box-shadow: 0px 0px 2px black;
     border-radius: 50%;
     padding: 10px 20px; }
+
+.text-forgot-password {
+  font-size: 17px;
+  text-align: center;
+  color: lightgray;
+  margin-bottom: 50px; }
+
+.create-account {
+  display: block;
+  color: black;
+  text-decoration: unset;
+  font-size: 18px; }
+
+.logo-header {
+  display: block;
+  padding-top: 80px;
+  font-size: 120px;
+  margin-bottom: 20px; }
 
 ::-webkit-input-placeholder {
   color: black !important;
